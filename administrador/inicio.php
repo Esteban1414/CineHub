@@ -67,7 +67,7 @@
     <div class="jumbotron">
 
         <?php if ($row["rol_id"] == 1) { ?>
-            <h1 class="display-3">Bienvenid@ Dueño@ <?php echo $row["username"]; ?> </h1>
+            <h1 class="display-3">Bienvenid@ <?php echo $row["username"]; ?> </h1>
         <?php } ?>
 
         <?php if ($row["rol_id"] == 2) { ?>
